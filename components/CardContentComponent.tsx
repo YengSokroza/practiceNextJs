@@ -4,7 +4,8 @@ import Image from 'next/image';
 
 export default function CardContentComponent() {
   return (
-    <Card 
+    <a href='/course/courseDetail'>
+      <Card 
       className="max-w-sm " imgSrc={"https://api.istad.co/media/image/e4a4d369-72c3-441c-9df1-23cc6e2ce3f7.jpg"}
     >
       <div className='flex justify-between text-xs font-bold text-gray-500'>
@@ -21,5 +22,7 @@ export default function CardContentComponent() {
       </h1>
      
     </Card>
+    </a>
+    
   );
 }
